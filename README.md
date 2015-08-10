@@ -21,6 +21,7 @@ simpleDropDownExample.listDelegate = self;
 ```
 
 > When if any drop-down item was tapped it will throw a delegate method. You can catch that cell information and title value.
+
 ```
 - (void)didTapListItemWithIndexPath:(NSIndexPath *)indexPath title:(NSString *)title listView:(UITableView *)listView {
     NSLog(@"Item index path %@ and title %@ " ,indexPath, title);
